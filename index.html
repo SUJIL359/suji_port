@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Sujil S.</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About Me</a></li>
+            <li><a href="#Education">Education</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#Certifications">Certifications</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="Home">
+        <header><h1>Sujil S.</h1></header>
+        <p>Masters of Computer Application Student</p>
+        <!-- Add your image here -->
+        <img src="images\sujil-photo.jpeg" alt="Sujil S." class="profile-image">
+    </section>
+
+    <!-- About Section -->
+    <section id="About">
+        <h2>About Me</h2>
+        <p>A motivated MCA student with expertise in software development and data management. Skilled in languages including Python, Java, and C++, with a focus on building impactful applications and intelligent systems.</p>
+    </section>
+
+    <!-- Education Section -->
+    <section id="Education">
+        <h2>Education</h2>
+        <ul>
+            <li><strong>Cochin University of Science and Technology</strong><br>Master of Computer Application, 2023 - 2025</li>
+            <li><strong>Government College Chittur</strong><br>Bachelor of Science in Electronics, 2019 - 2022</li>
+            <li><strong>GATE Qualified</strong><br>Qualified GATE in Computer Science Engineering, 2023</li>
+        </ul>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="Skills">
+        <h2>Technical Skills</h2>
+        <ul>
+            <li><strong>Languages:</strong> C, C++, Python, Java, HTML/CSS, JavaScript, MongoDB</li>
+            <li><strong>Framework:</strong> React</li>
+            <li><strong>Software:</strong> MS Office, LaTeX</li>
+            <li><strong>Data Structures and Algorithms (DSA)</strong></li>
+            <li><strong>Database Management System (DBMS)</strong></li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="Projects">
+        <h2>Projects</h2>
+
+        <h3>Salary Prediction (Python)</h3>
+        <ul>
+            <li>Developed and implemented salary prediction models using Python and machine learning algorithms.</li>
+            <li>Provided actionable insights to influence compensation strategies and decision-making.</li>
+        </ul>
+
+        <h3>Library Management System (Java)</h3>
+        <ul>
+            <li>Designed a Library Management System using Java with features like automated overdue notifications and search functionality.</li>
+        </ul>
+
+        <h3>Chatbot for Diet Plan Suggestions (IBM Watson Assistant)</h3>
+        <ul>
+            <li>Created a chatbot for personalized diet recommendations using IBM Watson Assistant, utilizing natural language processing for accurate responses.</li>
+        </ul>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="Certifications">
+        <h2>Certifications</h2>
+        <ul>
+            <li>Artificial Intelligence Fundamentals: Certificate</li>
+            <li>IBM Getting Started with Artificial Intelligence: Certificate</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="Contact">
+        <h2>Contact</h2>
+        <p>Phone: (+91) 8139831540<br>Email: sujil.mca@pg.cusat.ac.in</p>
+
+        <form id="contact-form" action="your-server-endpoint" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter Name" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Enter Email" required><br>
+
+            <label for="message">Message:</label>
+            <textarea id="message" placeholder="Enter your message here" rows="4" required></textarea><br>
+
+            <button type="submit">Submit</button>
+        </form>
+        <div id="thank-you-message" style="display: none; color: #335eff;">Thank you for contacting!</div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
