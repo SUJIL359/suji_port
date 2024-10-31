@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
         // Optionally reset the form fields
         contactForm.reset();
 
-        // Optionally hide the thank-you message after a few seconds
+   
         setTimeout(function() {
             thankYouMessage.style.display = "none";
         }, 10000); // Adjust the time (in milliseconds) as needed
